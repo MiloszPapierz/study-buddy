@@ -1,14 +1,9 @@
 {
   "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended"],
   "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": ["error", { "singleQuote": true }],
-    "import/first": 0
-  },
   "env": {
     "browser": true,
     "node": true,
     "es6": true
-  },
-  "parser": "react-scripts/node_modules/babel-eslint"
+  }
 }
